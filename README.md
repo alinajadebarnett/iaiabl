@@ -1,15 +1,13 @@
 # IAIA-BL
 
-This code package implements IAIA-BL from the manuscript "IAIA-BL: 
-A Case-based Interpretable Deep Learning Model for Classification 
-of Mass Lesions in Digital Mammography" by Alina Jade Barnett, Fides 
-Regina Schwartz, Chaofan Tao, Chaofan Chen, Yinhao Ren, Joseph Y. Lo, 
-and Cynthia Rudin.
+This code implements IAIA-BL from the manuscript "IAIA-BL: A Case-based 
+Interpretable Deep Learning Model for Classification of Mass Lesions 
+in Digital Mammography" by Alina Jade Barnett, Fides Regina Schwartz, 
+Chaofan Tao, Chaofan Chen, Yinhao Ren, Joseph Y. Lo, and Cynthia Rudin.
 
 This code package was developed by the authors at Duke University and 
-University of Maine, and licensed under a dual License (see LICENSE 
-for more information regarding the use and the distribution of this 
-code package).
+University of Maine, and licensed as described in LICENSE (for more 
+information regarding the use and the distribution of this code package).
 
 ## Prerequisites
 Any operating system on which you can run GPU-accelerated 
@@ -86,4 +84,6 @@ run correctly, but are included to aid in reproducibility:
 ## Expected Data Location
 Scripts are set up to expect data as numpy arrays in 
 /usr/xtmp/IAIABL/Lo1136i/test/Circumscribed/ where Circumscribed is the 
-mass margin label.
+mass margin label. The first channel of the numpy array should be image 
+data and the second (optional) channel should be the fine annotation 
+label.
