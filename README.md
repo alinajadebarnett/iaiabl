@@ -1,9 +1,10 @@
 # IAIA-BL
 
-This code implements IAIA-BL from the manuscript "IAIA-BL: A Case-based 
+This code implements IAIA-BL from the manuscript "A Case-based 
 Interpretable Deep Learning Model for Classification of Mass Lesions 
-in Digital Mammography" by Alina Jade Barnett, Fides Regina Schwartz, 
-Chaofan Tao, Chaofan Chen, Yinhao Ren, Joseph Y. Lo, and Cynthia Rudin.
+in Digital Mammography" published in Nature Machine Intelligence, Dec 2021, 
+by Alina Jade Barnett, Fides Regina Schwartz, Chaofan Tao, Chaofan Chen, 
+Yinhao Ren, Joseph Y. Lo, and Cynthia Rudin.
 
 This code package was developed by the authors at Duke University and 
 University of Maine, and licensed as described in LICENSE (for more 
